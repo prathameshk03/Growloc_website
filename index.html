@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed%3Awght%40200%3B300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" >
+    
+
+    <!-- Slick Slider -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+
+    <title>Growloc</title>
+
+
+    
+</head>
+<body>
+
+   <!--Navbar start-->
+   <header id="full-nav">
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                      <a class="navbar-brand" href="#">
+                        <img src="./images/logo_transparent2.png" alt="logo" style="width:140px;height:50px;">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-stream navbar-toggler-icon"></i>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <div class="dropdown">
+                              <a class="btn main_dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="leafy.html">Leafy Greens</a></li>
+                                <li><a class="dropdown-item" href="vine.html">Vine Crops</a></li>
+                                <li><a class="dropdown-item" href="lettuce.html">Lettuces</a></li>
+                                <li><a class="dropdown-item" href="herbs.html">Fresh Herbs</a></li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="tech.html">Tech</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blogs</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                          </li>
+                        </ul>
+                        <div class="header_right">
+                            <div class="text-lg-end">
+                              <li><a href="https://www.facebook.com/Growloc" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            </div>
+                        </div>
+                      </div>
+                  </nav>
+            </div>
+        </div>
+
+   </header>
+   <!--Navbar end-->
+
+
+   <!--Banner start-->
+
+   <section class="banner_section">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption" style="top: 30%;">
+              <div class="banner-content">
+                <h1><img src="/images/logo_white.png" class="img-fluid" style="width:28vh;height:12vh;margin-bottom: 10px;"></h1>
+                <h3>Fresh and Healthy Exotic Vegetables</h3>
+                <p><b>We provide Farm to Business linkage services, by using technology to enable modern controlled farms easy and customised growing according to your requirements.</b></p>
+                <a href="vine.html" class="btn main-btn">All Products</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption" style="top: 30%;">
+              <div class="banner-content">
+                <h1><img src="/images/logo_white.png" class="img-fluid" style="width:28vh;height:12vh;margin-bottom: 10px;"></h1>
+                <h3>Grow Local. Eat Local.</h3>
+                <p><b>Innovating and working towards making soil-less farming methods a mainstream source of food.</b></p>
+                <a href="vine.html" class="btn main-btn">All Products</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--Banner end-->
+
+
+   <!--Features cards start-->
+
+   <section class="feature_section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center pb-5">
+          <h2 class="section-title"> Our Services</h2>
+          <p class="section-subtitle">Be it seeds or be it the vendor, we are a part of your journey.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-lg-3 mb-5">
+          <a href="vine.html">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img src="./images/feature-icon/buy-sell.png">
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h4>Buy in bulk</h4>
+                  <h5>Soil-less and exotic farming produce of different varieties</h5> 
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <a href="./contact.html#contact_form">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img src="./images/feature-icon/supply.png">
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h4>Become a Supplier</h4>
+                  <h5>Want to become our supplier? Sell your produce to us</h5>
+                </div>
+              </div>
+            </div>
+        </a>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <a href="./blog.html">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img src="./images/feature-icon/variety.png">
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h4>Plant Innovation</h4>
+                  <h5>Introduce new variety of plants in your farm</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <a href="./tech.html">
+            <div class="card features-box">
+              <div class="text-center">
+                <div class="features-icon-border">
+                  <div class="features-icon">
+                    <img src="./images/feature-icon/monitor.png">
+                  </div>
+                </div>
+                <div class="features-text">
+                  <h4>Farm Tech</h4>
+                  <h5>Farm Monitoring and Control System</h5>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!--Features cards end-->
+
+
+   <!--Products cards start-->
+   <section class="landing_product_section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center pb-5">
+          <h2 class="section-title">Fresh Produce</h2>
+          <!-- <p class="section-subtitle">Our crops receive the optimal conditions in which they thrive, our crops are ultra-nutritious, hyper-delicious and free of chemical pesticides.</p> -->
+        </div>
+      </div>
+      <div class="row mx-0">
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/cherry.jpeg" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Cherry Tomatoes</h3>
+            </div>
+            <div class="product-detail">
+              <a href="vine.html#red_tomato" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/yellow-tomatoes.png" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Yellow Tomatoes</h3>
+            </div>
+            <div class="product-detail">
+              <a href="vine.html#yellow_tomato" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/spinach2.jpeg" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Spinach</h3>
+            </div>
+            <div class="product-detail">
+              <a href="leafy.html#spinach" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/basil.png" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Italian Basil</h3>
+            </div>
+            <div class="product-detail">
+              <a href="herbs.html#basil" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0">
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/arugula2.jpeg" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Arugula</h3>
+            </div>
+            <div class="product-detail">
+              <a href="leafy.html#arugula" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/bellpepper.jpg" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Bell Peppers</h3>
+            </div>
+            <div class="product-detail">
+              <a href="vine.html#pepper" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/romaine.png" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Romaine Lettuce</h3>
+            </div>
+            <div class="product-detail">
+              <a href="lettuce.html#romaine" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 mb-5">
+          <div class="card product-card">
+            <div class="product-img">
+              <img src="./images/products/zucchini.png" class="img-fluid">
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+              <h3>Zucchini</h3>
+            </div>
+            <div class="product-detail">
+              <a href="vine.html#zucchini" class="btn main-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+
+   <!--Products cards end-->
+
+
+   <!--Testimonials start-->
+   <section class="testimonial_section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center pb-5">
+          <h2 class="section-title">What our Clients say</h2>
+          <p class="section-subtitle">Here, at Growloc, we are committed to cater to your needs. Below are just a few examples of our happy clients.</p>
+        </div>
+      </div>
+
+        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleControls2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mb-5">
+                    <div class="testimonial-col">
+                        <img src="images/about/placeholder.jpg" alt="photo">
+                        <div>
+                            <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus cum dolorem repellat ipsam magnam et dolores facilis. Amet, vel dolores.”</p>
+                            <h5>Mrs. name</h5>
+                            <p>Position or name of company</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="col-lg-6 mb-5">
+                    <div class="testimonial-col">
+                        <img src="images/about/placeholder.jpg" alt="photo">
+                        <div>
+                            <p>“Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis cum nulla error illo reiciendis porro, perspiciatis iure?”</p>
+                            <h5>Mr. name</h5>
+                            <p>Regular customer</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 mb-5">
+                    <div class="testimonial-col">
+                        <img src="images/about/placeholder.jpg" alt="photo">
+                        <div>
+                            <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus cum dolorem repellat ipsam magnam et dolores facilis. Amet, vel dolores.”</p>
+                            <h5>Mrs. name</h5>
+                            <p>Position or name of company</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    </div>
+                    
+                    <div class="col-lg-6 mb-5">
+                    <div class="testimonial-col">
+                        <img src="images/about/placeholder.jpg" alt="photo">
+                        <div>
+                            <p>“Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis cum nulla error illo reiciendis porro, perspiciatis iure?”</p>
+                            <h5>Mr. name</h5>
+                            <p>Regular customer</p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+   <!--Testimonials end-->
+
+ <!--Gallery start-->
+
+<section class="gallery_section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center pb-5">
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-subtitle">Take a sneak peek of the farms from which our produce comes</p>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-md-12 heroSlider-fixed">
+          <div class="overlay">
+        </div>
+           <!-- Slider -->
+          <div class="slider responsive">
+            <div>
+                          <img src="/images/gallery/h1.jpeg" alt="" />
+                      </div>
+                      <div>
+                          <img src="/images/gallery/h2.jpeg" alt="" />
+                      </div>
+                      <div>
+                          <img src="/images/gallery/h3.jpeg" alt="" />
+                      </div>
+                      <div>
+                          <img src="/images/gallery/h4.jpeg" alt="" />
+                      </div>
+                      <div>
+                          <img src="/images/gallery/h5.jpeg" alt="" />
+                      </div>
+                      <div>
+                          <img src="/images/gallery/h6.jpeg" alt="" />
+                      </div>
+
+          </div>
+                   <!--controls-->
+                  <div class="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  </div>
+                  <div class="next">
+                      <span class="fas glyphicon-chevron-right" aria-hidden="true"></span>
+                  </div>
+                  
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!--Gallery end-->
+
+
+
+   <!--Support start-->
+   
+   <section class="support_section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center pb-5">
+          <h2 class="section-title">Supported by</h2>
+          <p class="section-subtitle">We are fortunate that our nascent company is backed by many of the top organisations which see the potential in us.</p>
+        </div>
+      </div>
+        <div class="support-slider">
+          <div class="slide-track">
+            <div class="slide">
+              <img src="./images/support/startupind.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/seedfund.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/association-for-vertical-farming.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/HiMedia_Logo.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/higronics-logo.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/seedspark.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/Bhau Insti.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/coep.jpeg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/startupind.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/seedfund.jpg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/association-for-vertical-farming.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/HiMedia_Logo.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/higronics-logo.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/seedspark.jpg" alt="" />
+            </div> 
+            <div class="slide">
+              <img src="./images/support/Bhau Insti.png" alt="" />
+            </div>
+            <div class="slide">
+              <img src="./images/support/coep.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+    </div>
+   </section>
+
+   <!--Support end-->
+
+
+
+   <!--Whatsapp start-->
+   <a href="https://api.whatsapp.com/send?phone=918092978438&text=Hello%2C%20got%20your%20contact%20from%20the%20website!" target="_blank" class="whatsapp_float"><i class="fa-brands fa-whatsapp whatsapp-icon"></i></a>
+   
+   <!--Whatsapp end-->
+
+
+   <!--Footer start-->
+   <section class="footer_wrapper mt-3 mb-md-0">
+
+    <h5>Stay Connected</h5>
+    <span>Sanket: sanket@growloc.com, +91-7410026784</span><br>
+    <span>Shanu: shanu@growloc.com, +91-7299566246</span>
+    <ul class="social-network d-flex align-items-center p-0">
+      <li><a href="https://www.facebook.com/Growloc" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="https://www.linkedin.com/company/growloc/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+
+    <!--Copyright Section-->
+    <div class="container-fluid copyright-section">
+      <p>Copyright <a>&copy 2022,</a> All Rights Reserved by Growloc Private Limited</p>
+    </div>
+   </section>
+
+   <!--Footer end-->
+
+   <!--JS-->
+   <script src="js/lightbox.js"></script>
+   <script src="js/main.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-15FVT538FX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-15FVT538FX');
+  </script>
+
+   
+</body>
+</html>

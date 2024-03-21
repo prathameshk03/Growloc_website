@@ -1,0 +1,121 @@
+@media(max-width:1170px) {
+
+    .section-subtitle{
+        max-width: 60%;
+    }
+
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
+   
+}
+
+@media(max-width:991px) {
+    .about .banner_section,
+    .products .banner_section,
+    .contact .banner_section,
+    .tech .banner_section,
+    .blog .banner_section{
+    padding-top: 12.5rem;
+    padding-bottom:3rem;
+    }
+
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .header .header_right span{
+        padding: 0.2rem 0.5rem;
+    }
+
+    .header .navbar-brand{
+        width: 35vw;
+    }
+
+    .products .products_section .align-items-center{
+        padding: 2rem 3rem 2rem 5rem;
+    
+    }
+    .products .products_section .alternate-color{
+        border-radius: 5%;
+    }
+
+    .post-blog-links .post-img{
+        height: 100%; 
+    }
+}
+
+@media(max-width:767px) {
+    
+    body,html{
+        font-size: 8px;
+    }
+
+    .section-subtitle{
+        max-width: 80%;
+    }
+
+    .banner_section{
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
+    .post-header{
+        width: 100%;
+        height: 300px;
+        background: var(--dark-color);
+    }
+    .header-img{
+        width: 90%;
+        margin: auto;
+        height: 250px;
+    }
+    .blog-post-img{
+        width: 90%;
+        margin: auto;
+        height: 200px;
+    }
+    .post-content{
+        margin-top: 10rem !important;
+    }
+    .post{
+        width: 90%;
+        margin: auto;
+    }
+    .post-blog-links .post-box{     
+        height: fit-content;
+    }
+}
+
+@media(max-width:590px) {
+    
+    body,html{
+        font-size: 7px;
+    }
+
+    .section-subtitle{
+        max-width: 80%;
+    }
+
+    .banner_section{
+        min-height: 75vh;
+    }
+    .banner_section .carousel-item{
+        height: 75vh;
+    }   
+
+    .about_team .white{
+        display: none;
+    }
+}
